@@ -7,6 +7,7 @@ import { Page404Component } from './page404/page404.component';
 
 
 const routes: Routes = [
+  { path: '', redirectTo: '/dashboard/default', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'forget-password', component: ForgetPasswordComponent },
